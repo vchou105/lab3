@@ -35,6 +35,8 @@ if ('development' == app.get('env')) {
 // Add routes here
 app.get('/', hello.view);
 
+// place URL parameter into variable userName
+// hello.view calls view() in hello module
 app.get('/hello/:userName', hello.view);
 
 // Example route
