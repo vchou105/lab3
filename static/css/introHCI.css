@@ -10,11 +10,11 @@
 }
 
 /* this style exists to make it obvious that you've successfully linked
-   the CSS to the page. feel free to remove it once the link is working. */
+   the CSS to the page. feel free to remove it once the link is working. 
 body {
      border: 1px dotted gray;
      padding: 20px;
-}
+}*/
 
 .jumbotron {
 	position: relative;
@@ -37,6 +37,92 @@ body {
      color: #6e6e6e;
 }
 
+.jumbotron p.active {
+     color:lightcoral;
+}
+
 .project a {
      text-align: center;
 }
+
+.project-description p.active {
+     font-size: medium;
+     text-align: center;
+}
+
+.navigate li:hover{
+     border-bottom: solid lightcoral 3.5px;
+ }
+
+ .navigate ul{
+     position: absolute; 
+     right: 5%;
+ }
+ .navigate ul li{
+     display: inline-block;
+     color: lightcoral;
+     font-size: 18px;
+     border-radius: 10px; 
+     padding: 5px;
+     margin: 8px;
+     border: solid lightcoral;
+ }
+
+body {
+     font-family: Poppins, sans-serif;
+     margin: 0px 40px 20px 50px;
+     padding: 10px;
+}
+
+h1 {
+     margin-top: 50px;
+}
+
+h3 {
+     margin-top: 30px;
+}
+
+p {
+     font-family: Barlow, sans-serif;
+     font-size: medium;
+}
+
+.intro {
+     font-size: 18px;
+}
+
+.about {
+     background-color: powderblue;
+}
+
+.about p{
+     font-size: 21px;
+}
+
+img {
+     border-radius: 25px;
+     width: 45%;
+     height: 45%
+}
+
+img:hover {     
+     box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+     width: 47%; height: 47%;
+}
+
+.project {
+     background-color: powderblue;
+     margin: 10px 30px 30px 10px;
+     border-radius: 15px; 
+     padding: 15px;
+}
+
+.project p {
+     margin-left: 20px;
+     padding-left: 10px;
+     font-family: Poppins, 'Segoe UI';
+}
+
+.project a p:hover {
+     color: lightcoral;
+}g
